@@ -1,0 +1,11 @@
+{
+  "name": "io.infinitecanvas.serilogintegration",
+  "version": "1.0.0",
+  "displayName": "Serilog integration for Unity",
+  "description": "Serilog integration for Unity",
+  "unity": "6000.1",
+  "license": "MIT",
+  "author": {
+    "name": "Infinite Canvas"
+  }
+}

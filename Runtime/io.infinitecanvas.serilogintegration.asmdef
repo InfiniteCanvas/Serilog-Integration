@@ -1,0 +1,16 @@
+{
+    "name": "io.infinitecanvas.serilogintegration",
+    "rootNamespace": "InfiniteCanvas.SerilogIntegration",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Serilog.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
