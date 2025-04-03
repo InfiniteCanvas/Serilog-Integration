@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1] - 2025-04-03
+
+### Changed
+
+- Removed unused namespace
+
 ## [1.1.0] - 2025-04-03
 
 ### Added

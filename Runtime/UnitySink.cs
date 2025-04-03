@@ -12,10 +12,7 @@ namespace InfiniteCanvas.SerilogIntegration
 		{
 			var message = logEvent.RenderMessage();
 
-			if (logEvent.Exception != null)
-			{
-				Debug.LogException(logEvent.Exception);
-			}
+			if (logEvent.Exception != null) Debug.LogException(logEvent.Exception);
 
 			switch (logEvent.Level)
 			{
