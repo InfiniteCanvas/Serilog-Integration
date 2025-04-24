@@ -1,6 +1,6 @@
 # Serilog Integration
 
-Adds a sink that logs to Unity's debug console.
+Adds a simple sink that logs to Unity's debug console and an override method that takes a ScriptableObject as settings.
 
 ## Installation
 

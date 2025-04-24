@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0] - 2025-04-24
+
+### Added
+
+- emits unity debug logs when overriding log settings
+
 ## [1.1.1] - 2025-04-03
 
 ### Changed
