@@ -2,19 +2,17 @@
 
 namespace InfiniteCanvas.SerilogIntegration
 {
-	public static class LogSettingsExtensions
-	{
-		public static LoggerConfiguration OverrideLogLevels(this LoggerConfiguration loggerConfiguration, LogSettingOverrides logSettingOverrides)
-		{
-			loggerConfiguration.MinimumLevel.Is(logSettingOverrides.MinimumLevel);
+    public static class LogSettingsExtensions
+    {
+        public static LoggerConfiguration OverrideLogLevels(this LoggerConfiguration loggerConfiguration, LogSettingOverrides logSettingOverrides)
+        {
+            UnityEngine.Debug.Log($"Applying {logSettingOverrides}");
+            loggerConfiguration.MinimumLevel.Is(logSettingOverrides.MinimumLevel);
 
-			foreach (var logSetting in logSettingOverrides.Settings)
-            {
-                UnityEngine.Debug.Log($"Applying {logSetting}");
+            foreach (var logSetting in logSettingOverrides.Settings)
                 loggerConfiguration.MinimumLevel.Override(logSetting.NameSpace, logSetting.LogLevel);
-            }
-
+            
             return loggerConfiguration;
-		}
-	}
+        }
+    }
 }
